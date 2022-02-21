@@ -22,7 +22,7 @@ module.exports = {
 		}
 	},
 
-	discconnect: async function() {
+	disconnect: async function() {
 		try {
 			await ngrok.disconnect();
 			await ngrok.kill();
